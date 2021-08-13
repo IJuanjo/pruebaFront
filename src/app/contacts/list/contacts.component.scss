@@ -1,0 +1,15 @@
+.list-contacs{
+    &-group{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        cursor: pointer;
+        &:active{
+            filter: alpha(opacity=30);
+        }
+        &:last-of-type{
+            margin-bottom: 10px;
+        }
+    }
+}
+

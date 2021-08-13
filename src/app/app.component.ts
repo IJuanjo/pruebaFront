@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'contact';
+  title:string = 'Contador App';
+  count:number=0;
+  get countValue(){
+    return this.count;
+  }
+  increment(){
+    this.count++;
+  }
+  decrement(){
+    if(this.count>=1){
+      this.count--;
+    }
+  }
 }

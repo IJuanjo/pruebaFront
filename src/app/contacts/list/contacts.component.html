@@ -1,0 +1,6 @@
+<div class="header">
+    <h1 class="header__title">Agencias</h1>
+</div>
+<ul class="list-contacs" >
+    <contact-app *ngFor="let contact of listAgency" (click)="navegateCurrentAgen(contact.id)" class="list-contacs-group" [contact]="contact"></contact-app>
+</ul>

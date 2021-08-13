@@ -1,0 +1,15 @@
+.list-contacs{
+    &-group{
+        display: flex;
+   
+        &-thumbnail{
+            width: 88px;
+        }
+        &-content{
+            margin-left: 20px;
+            p{
+                margin: 0;
+            }
+        }
+    }
+}
